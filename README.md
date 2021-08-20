@@ -1,4 +1,35 @@
-Troubleshooting 
+The 3D experience aims to introduce the player to what life would have been like on the Roman frontier by inviting the player to take part in an interactive story.
+
+1. 3D model of Vindolanda:
+a. Models of walls and towers,
+b. Models of Principia,
+c. Models of Praetorium,
+d. Models of Vicus,
+e. Models of Barracks,
+f. Models of Horrea,
+g. Models Baths,
+h. Models Temples
+2. Exploration:
+a. Creted models of collectable items
+b. Created ability to pick-up
+c. Created an inventory
+d. Created ability to add and remove items from an inventory
+e. Creted models of intractable items
+f. Created ability to inspect items
+g. Created a journal
+h. Created Interactive NPCs with branching dialogues & consequences
+i. Created cutscene system
+3. Story:
+a. Created main story
+b. Created side quests system
+c. Added side quests
+4. Additional Systems:
+a. Created saving and loading system
+b. Added gamepad support
+c. Created Minimap and World Map
+d. Added Achievements
+
+Troubleshooting: 
 
 1) Freeze on load issue (stops at 39%):
 If the project stops loading at about 39% It may be that the project doesn't open up properly the first time. To bypass this, open the DefaultEngine.ini (in Config folder), search for the following line and remove it: r.CustomDepth=3
